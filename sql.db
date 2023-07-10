@@ -1,0 +1,18 @@
+-- Criar Banco de dados
+CREATE DATABASE nodedb;
+
+-- Seelcionar BD
+use nodedb;
+
+-- Criar Tabela
+CREATE TABLE people (
+  id INT NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  PRIMARY KEY(ID)
+);
+
+-- Exibir tabelas
+show tables;
+
+-- Descricao da tabela
+desc people;
